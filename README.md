@@ -9,7 +9,7 @@ boop bop
 #include "core/Shape.h"
     - Contour.h
         - EdgeHolder.h
-            - edge-segments.h
+            - edge-segments.h x
                 - SignedDistance.hpp x
                 - EdgeColor.h x
 #include "core/BitmapRef.hpp"

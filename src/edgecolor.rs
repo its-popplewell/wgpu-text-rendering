@@ -1,4 +1,5 @@
-enum EdgeColor {
+#[derive(Default)]
+pub enum EdgeColor {
     BLACK = 0,
     RED = 1,
     GREEN = 2,
@@ -6,5 +7,6 @@ enum EdgeColor {
     BLUE = 4,
     MAGENTA = 5,
     CYAN = 6,
+    #[default]
     WHITE = 7
 }
